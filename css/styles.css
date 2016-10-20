@@ -1,3 +1,16 @@
 #cat-mirror-umbrella, #shadows-clowns-murder, #cannibal-medium-dreams, #story  {
   display: none;
 }
+#red {
+  color: red;
+}
+#brown {
+  color: brown;
+}
+#blue {
+  color: blue;
+}
+button{
+  color: red;
+  background-color: yellow;
+}

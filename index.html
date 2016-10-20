@@ -13,26 +13,34 @@
         <h2>Virtual Fortune Teller</h2>
       </div>
       <form id="fortune">
-        <div class="form-group">
-          <p>In the past year, have you encountered any of these events</p>
+        <p>In the past year, have you encountered any of these events</p>
+        <div id="red" class="form-group">
           <input type="checkbox" name="events" value="cat"> I saw a black cat.<br>
           <input type="checkbox" name="events" value="mirror"> I broke a mirror.<br>
           <input type="checkbox" name="events" value="umbrella"> I witnessed an umbrella opening indoors.<br>
+        </div>
+        <div id="brown" class="form-group">
           <input type="checkbox" name="events" value="shadows"> I saw shadows move.<br>
           <input type="checkbox" name="events" value="clowns"> I saw more than 3 clowns this year.<br>
           <input type="checkbox" name="events" value="murder"> I witnessed a murder<br>
+        </div>
+        <div id="blue" class="form-group">
           <input type="checkbox" name="events" value="cannibal"> I had an appetite for human flesh.<br>
           <input type="checkbox" name="events" value="medium"> I felt like someone was talking through me.<br>
           <input type="checkbox" name="events" value="dreams"> I had lucid dreams about dead relatives stabbing me.<br>
         </div>
-       <button type="submit">Submit Survey</button>
+        <button type="submit">Submit Survey</button>
+        </div>
+
       </form>
       <span id="fortune-responses">
       </br>
-      <div id="cat-mirror-umbrella">
-        <p><b>Here is your fortune</b></p>
-        <p> Go to this <a href ="http://deathdate.info/s/death"> website</a> and follow the instructions.
-        </p>
+      <div class="first">
+        <div id="cat-mirror-umbrella">
+          <p><b>Here is your fortune</b></p>
+          <p> Go to this <a href ="http://deathdate.info/s/death"> website</a> and follow the instructions.
+          </p>
+        </div>
       </div>
       <div id="shadows-clowns-murder">
         <p> Go to this <a href ="http://theshadowlands.net/ghost/"> website</a> and explore the options that are on the webpage. This may help you with future encounters with these kinds of dark things.
@@ -46,6 +54,7 @@
         <p> Sorry not all systems are perfect and we don't have a fortune available for you at this time. </p>
       </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
